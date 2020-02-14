@@ -5,8 +5,14 @@
   align-items: center;
   border: 1px solid black;
   border-radius: 20px;
+
   
-  
+}
+
+.Lottery-balls {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
 }
 
 .Lottery button{

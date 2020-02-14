@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 import './Ball.css';
 
 class Ball extends Component {
+  static defaultProps = {
+    colorBalls:'red',
+    colorText:'white',
+    number: '?'
+  }
 
   render(){
     return(
